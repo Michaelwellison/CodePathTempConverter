@@ -19,6 +19,8 @@
 		D50CF074188C6F71009E0FD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50CF05C188C6F71009E0FD5 /* UIKit.framework */; };
 		D50CF07C188C6F71009E0FD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D50CF07A188C6F71009E0FD5 /* InfoPlist.strings */; };
 		D50CF07E188C6F71009E0FD5 /* TempConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D50CF07D188C6F71009E0FD5 /* TempConverterTests.m */; };
+		D50CF08A188C6FF4009E0FD5 /* TempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50CF088188C6FF4009E0FD5 /* TempViewController.m */; };
+		D50CF08B188C6FF4009E0FD5 /* TempViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50CF089188C6FF4009E0FD5 /* TempViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		D50CF079188C6F71009E0FD5 /* TempConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TempConverterTests-Info.plist"; sourceTree = "<group>"; };
 		D50CF07B188C6F71009E0FD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D50CF07D188C6F71009E0FD5 /* TempConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempConverterTests.m; sourceTree = "<group>"; };
+		D50CF087188C6FF4009E0FD5 /* TempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempViewController.h; sourceTree = "<group>"; };
+		D50CF088188C6FF4009E0FD5 /* TempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempViewController.m; sourceTree = "<group>"; };
+		D50CF089188C6FF4009E0FD5 /* TempViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TempViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				D50CF068188C6F71009E0FD5 /* AppDelegate.m */,
 				D50CF06A188C6F71009E0FD5 /* Images.xcassets */,
 				D50CF05F188C6F71009E0FD5 /* Supporting Files */,
+				D50CF087188C6FF4009E0FD5 /* TempViewController.h */,
+				D50CF088188C6FF4009E0FD5 /* TempViewController.m */,
+				D50CF089188C6FF4009E0FD5 /* TempViewController.xib */,
 			);
 			path = TempConverter;
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50CF08B188C6FF4009E0FD5 /* TempViewController.xib in Resources */,
 				D50CF063188C6F71009E0FD5 /* InfoPlist.strings in Resources */,
 				D50CF06B188C6F71009E0FD5 /* Images.xcassets in Resources */,
 			);
@@ -241,6 +250,7 @@
 			files = (
 				D50CF069188C6F71009E0FD5 /* AppDelegate.m in Sources */,
 				D50CF065188C6F71009E0FD5 /* main.m in Sources */,
+				D50CF08A188C6FF4009E0FD5 /* TempViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
